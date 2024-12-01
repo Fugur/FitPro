@@ -190,3 +190,64 @@ a{
         font-size: 20px;
     }
 }
+@media (max-width: 700px){
+    #aboutUs{
+        height: 300px;
+    }
+    #aboutUs h1{
+        font-size: 25px;
+    }
+    #aboutUs p{
+        font-size: 10px;
+    }
+    #Name{
+        font-size: 35px;
+    }
+    #Losung{
+        font-size: 10px;
+    }
+    .cat{
+        height: 350px;
+    }
+    .rText{
+        height:330px;
+        padding: 10px 0 10px 0;
+    }
+    .lText{
+        height:330px;
+        padding: 10px 0 10px 0;
+    }
+    .lText div h1{
+        font-size: 25px;
+        padding: 0 20px 0 20px;
+    }
+    .lText div p{
+        font-size: 11px;
+        padding: 0 20px 0 20px;
+    }
+    .rText div h1{
+        font-size: 25px;
+        padding: 0 20px 0 20px;
+    }
+    .rText div p{
+        font-size: 11px;
+        padding: 0 20px 0 20px;
+    }
+    .btn{
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .btnBack{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+    footer{
+        font-size: 13px;
+    }
+}
