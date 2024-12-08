@@ -2,7 +2,13 @@
 
 #site{
     width: 70%;
+    float:left;
     font-family: 'Raleway';
+}
+#passport{
+    width:30%;
+    float: right;
+    
 }
 
 body{
@@ -40,6 +46,16 @@ a{
     color: white;
     filter: drop-shadow(0px 1px 1px black);
     font-size: 25px;
+}
+#chap1{
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+#chap1 h1{
+    margin: 0;
+}
+#chap1 h2{
+    margin: 0;
 }
 #aboutUs{
     height: 520px;
@@ -305,8 +321,8 @@ a{
         font-size: 15px;
     }
     iframe{
-        width: 300px;
-        height: 200px;
+        width: 270px;
+        height: 157px;
     }
     footer{
         height: 100px;

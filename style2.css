@@ -1,0 +1,16 @@
+.clicker {
+    color: blue;
+    outline:none;
+    cursor:pointer;
+    font-size: 20px;
+}
+    
+.hiddendiv{
+    display:none;
+    font-size: 15px;
+    font-style: normal;
+}
+    
+.clicker:focus + .hiddendiv{
+    display:block;
+}
